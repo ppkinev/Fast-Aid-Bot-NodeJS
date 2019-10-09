@@ -1,22 +1,17 @@
 {
-  "name": "telebot-test",
+  "name": "f-aid-bot",
   "version": "1.0.0",
   "description": "Telegram bot",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bioparoks/bot.git"
   },
   "author": "Pavel Kinev",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bioparoks/bot/issues"
-  },
-  "homepage": "https://github.com/bioparoks/bot#readme",
   "dependencies": {
     "mongodb": "^2.2.10",
     "node-emoji": "^1.3.0",
