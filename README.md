@@ -27,11 +27,11 @@ with `getStory -> case` stands for the `final` attribute in json.
 *Util commands are used from within the corresponding folders*
 
 `utils/JSON2Twinery` - converts JSON file back to twine file to be used with twinery.
-```
+``` javascript
     // Put a path to json file you want to convert
     15: const json = require('../path/Chapter 2.json');
 ```
-```
+``` javascript
     // Specify the name and path for twinery html file
     16: const html = `./${fileNames.name}.html`;
 ```
@@ -40,7 +40,7 @@ Usage: `npm build`
 ---
 `utils/Twinery2JSON` - is kinda a separate mini-app, 
 which requires it's own `npm isntall`, since it relies on `jsdom` package.
-```
+``` javascript
     // Specify twine html
      9: const twine = '../Twines/Chapter 1.html';
     
@@ -53,7 +53,7 @@ Usage: `npm install` to add needed packages, then just `npm index`
 ---
 `utils/Twinery2JSON/check-block-existence.js` - that's just a simple helper.
 It compares blocks English and Russian versions of JSONs, so they have the same blocks.
-```
+``` javascript
     // Provide the corresponding path names
     3: const fileRus = require(path + 'Chapter 0.json');
     4: const fileEng = require(path + 'Chapter 0 eng.json');
