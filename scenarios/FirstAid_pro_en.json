@@ -1,0 +1,3284 @@
+{
+	"Start": {
+		"serial": 0,
+		"messages": [
+			{
+				"type": "text",
+				"text": "ATTENTION! This bot version is for those, who’s finished the training! Please, remember, if you haven’t finished the training you can heavily hurt the injured. You can get back by tapping “Have no training”.",
+				"delay": 5.17,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It's recommended to get familiar with the bot and how it works BEFORE it is really needed.",
+				"delay": 2.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Think about your own safety before helping anyone else, that's the first and the foremost rule.",
+				"delay": 2.38,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "What has happened?",
+				"delay": 2.45,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Person was injured (1/5)",
+					"block": "Человек получил травму_прошел"
+				},
+				{
+					"message": "Person feels bad (2/5)",
+					"block": "Человеку плохо_прошел"
+				},
+				{
+					"message": "About this project (3/5)",
+					"block": "О проекте"
+				},
+				{
+					"message": "Remind general algorithm (4/5)",
+					"block": "Напомните общий алгоритм"
+				},
+				{
+					"message": "Had no training (5/5)",
+					"block": "нет_прошел_тренинг"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4235,52"
+	},
+	"Напомните общий алгоритм": {
+		"serial": 1,
+		"messages": [
+			{
+				"type": "text",
+				"text": "The general first aid algorithm looks like this: DRS ABCD",
+				"delay": 3.43,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "D (Danger) - you are the most important person in any emergency situation! If danger is present you should attempt to reduce the risk of harm. If you assess the situation as being too dangerous then stay back and call for professional help.",
+				"delay": 6.03,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "R (Response) – if someone is collapsed/unwell your first action should be to check for a response. Do this in adults by shouting at them and gently shaking their shoulders. Do not shake the person violently as this could cause further harm!",
+				"delay": 6.03,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "S (Shout/summon help) – once you’ve found someone unconscious your first action should be to shout/summon for help. Making people aware of an emergency situation is important.",
+				"delay": 4.38,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "A (Airway) – every unconscious patient is at risk of airway obstruction due to the back of the tongue falling back. You need to open the airway by performing a head tilt chin lift",
+				"delay": 4.47,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "B (Breathing) – once you’ve opened the airway you should check for breathing for a maximum of 10 seconds. You are looking for chest movement, listening for breath sounds and feeling for exhaled breath on the side of your cheek.",
+				"delay": 5.67,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "C (CPR) - If someone isn’t breathing you should immediately start Cardiopulmonary Resuscitation (indirect heart massage) and call for a defibrillator.",
+				"delay": 3.75,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "D (Defibrillation) - once an Automated External Defibrillator (AED) arrives it should be used as soon as possible. Open the box and follow the voice prompts.",
+				"delay": 3.92,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Let's get back to the first aid, what's happened?",
+				"delay": 3.23,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Person got injury",
+					"block": "Человек получил травму_прошел"
+				},
+				{
+					"message": "Person feels unwell",
+					"block": "Человеку плохо_прошел"
+				},
+				{
+					"message": "I had no training",
+					"block": "нет_прошел_тренинг"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4506,106"
+	},
+	"О проекте": {
+		"serial": 2,
+		"messages": [
+			{
+				"type": "text",
+				"text": "There are around 50 000 people die yearly before ambulance comes. This number could be way smaller, if injured could get the first aid. We’ve created the project @FastAid_bot to make you prepared for extreme situations.",
+				"delay": 5.47,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "The project was made up by FAST company team, who are specialized in providing first aid training (and other special skills) to companies and individuals - http://www.FirstAid.in.ua/",
+				"delay": 4.55,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "The project was built and published by https://sayhimedia.com/",
+				"delay": 3.55,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Let's get back to life savings, but start from your own safety.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "What has happened?",
+				"delay": 2.45,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Person was injured (1/4)",
+					"block": "Человек получил травму_прошел"
+				},
+				{
+					"message": "Person feels bad (2/4)",
+					"block": "Человеку плохо_прошел"
+				},
+				{
+					"message": "Remind general algorithm (3/4)",
+					"block": "Напомните общий алгоритм"
+				},
+				{
+					"message": "Had no training (4/4)",
+					"block": "нет_прошел_тренинг"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3973,255"
+	},
+	"прошел тренинг": {
+		"serial": 3,
+		"messages": [
+			{
+				"type": "text",
+				"text": "This is an advanced bot version, use it if you have finished the first aid training. Using this version requires reanimation skills.",
+				"delay": 3.3,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "If you haven't done the training, please, select \"Had no training\" option.",
+				"delay": 3.85,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Available languages: English (current), русский ( /lang_ru )",
+				"delay": 3.5,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "To change the language, tap the highlighted command.",
+				"delay": 3.3,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Think about your own safety before helping anyone else, that's the first and the foremost rule.",
+				"delay": 2.38,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Person was injured (1/5)",
+					"block": "Человек получил травму_прошел"
+				},
+				{
+					"message": "Person feels bad (2/5)",
+					"block": "Человеку плохо_прошел"
+				},
+				{
+					"message": "About this project (3/5)",
+					"block": "О проекте"
+				},
+				{
+					"message": "Remind general algorithm (4/5)",
+					"block": "Напомните общий алгоритм"
+				},
+				{
+					"message": "Had no training (5/5)",
+					"block": "нет_прошел_тренинг"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4284,300"
+	},
+	"нет_прошел_тренинг": {
+		"serial": 4,
+		"messages": [
+			{
+				"type": "text",
+				"text": "We highly recommend to take the first aid training. But you can help people even without it.",
+				"delay": 2.3,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": []
+		},
+		"final": "file1",
+		"twine-coords": "2745,323"
+	},
+	"припадок_прошел": {
+		"serial": 5,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Do not be afraid!",
+				"delay": 2.42,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Quickly move his head onto your leg or put something soft under it (like jacket or pullover).",
+				"delay": 2.33,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "To prevent injured from hurting his head.",
+				"delay": 3.02,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "IMPORTANT! Do not try to open an injured’s mouth and put something between his teeth. This is very dangerous, prevent others from doing it.",
+				"delay": 3.48,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Follow next steps:",
+				"delay": 2.45,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "If you can roll injured to his side.",
+				"delay": 2.9,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Hold him, so he couldn't hurt himself.",
+				"delay": 2.95,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Especially his head.",
+				"delay": 2.5,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "But don't try to immobilize him or push him too hard, that might harm.",
+				"delay": 3.75,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Call the ambulance:",
+				"delay": 2.47,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "1. Shout out for others to help.",
+				"delay": 2.8,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Call the ambulance number or ask somebody to do it.",
+				"delay": 3.35,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Tell the ambulance: what happened, where, rough age of injured person, gender. Answer to all operator’s questions. Operator should hang up first.",
+				"delay": 3.7,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Make sure there is somebody to meet an ambulance crew.",
+				"delay": 3.43,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "скорая_припадок"
+				},
+				{
+					"message": "Injured lost his consciousness",
+					"block": "Человек без сознания"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "6785,355"
+	},
+	"скорая_припадок": {
+		"serial": 6,
+		"messages": [
+			{
+				"type": "text",
+				"text": "You did everything you could, thanks for not being indifferent.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Tell your friends and relatives about @FastAid_bot",
+				"delay": 3.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It's really important for everyone to know how to do first aid.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "6795,526"
+	},
+	"Человек без сознания": {
+		"serial": 7,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Talk to him, ask loudly: \"Can you hear me? Are you okay?\"",
+				"delay": 3.43,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "No reaction",
+					"block": "Не реагирует"
+				},
+				{
+					"message": "Responded",
+					"block": "Ответил"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3630,635"
+	},
+	"Человек получил травму_прошел": {
+		"serial": 8,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Choose one of the options below, what happened to the injured person:",
+				"delay": 3.73,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Heavy bleeding (1/7)",
+					"block": "Сильное кровотечение"
+				},
+				{
+					"message": "Hit by a car (2/7)",
+					"block": "Сбила машина"
+				},
+				{
+					"message": "Fell from a height (3/7)",
+					"block": "Упал с высоты"
+				},
+				{
+					"message": "Burn (4/7)",
+					"block": "Ожог"
+				},
+				{
+					"message": "Broke a limb (5/7)",
+					"block": "Сломал конечность"
+				},
+				{
+					"message": "Person feels bad (6/7)",
+					"block": "Человеку плохо_прошел"
+				},
+				{
+					"message": "Get back (7/7)",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4193,657"
+	},
+	"Человеку плохо_прошел": {
+		"serial": 9,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Choose one of the options below, what happened to the injured person:",
+				"delay": 3.73,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Is unconscious (1/7)",
+					"block": "Человек без сознания"
+				},
+				{
+					"message": "Choked (2/7)",
+					"block": "Подавился"
+				},
+				{
+					"message": "Heart attack (3/7)",
+					"block": "Подозрение на сердечный приступ"
+				},
+				{
+					"message": "Suspected stroke (4/7)",
+					"block": "Подозрение на инсульт"
+				},
+				{
+					"message": "Convulsive seizures (5/7)",
+					"block": "припадок_прошел"
+				},
+				{
+					"message": "Injury (6/7)",
+					"block": "Человек получил травму_прошел"
+				},
+				{
+					"message": "Get back (7/7)",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4475,665"
+	},
+	"Ответил": {
+		"serial": 10,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Clarify what's happened and ask if medical aid is needed.",
+				"delay": 3.43,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Tells help is needed",
+					"block": "Говорит нужна"
+				},
+				{
+					"message": "Tells no help needed",
+					"block": "Говорит, что не нужна"
+				},
+				{
+					"message": "I think help is required",
+					"block": "Говорит нужна"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3208,685"
+	},
+	"Не реагирует": {
+		"serial": 11,
+		"messages": [
+			{
+				"type": "text",
+				"text": "1. Shout out for others to help.",
+				"delay": 2.8,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Call an ambulance and make sure it's coming.",
+				"delay": 3.18,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Make sure there is somebody to meet an ambulance crew.",
+				"delay": 3.43,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance is coming",
+					"block": "Скорая едет_сознание"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3058,685"
+	},
+	"Подозрение на инсульт": {
+		"serial": 12,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Please, clarify the question below:",
+				"delay": 2.88,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Have you noticed any critical changes in injured’s behavior? Like sudden blindness, disorientation, heavy dizziness, etc.",
+				"delay": 3.02,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Yes",
+					"block": "инсульт1скорая"
+				},
+				{
+					"message": "No",
+					"block": "инсульт1нет"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "6877,777"
+	},
+	"Подозрение на сердечный приступ": {
+		"serial": 13,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Check for the next symptoms:",
+				"delay": 2.7,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Labored breathing",
+				"delay": 2.42,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "A chest pain which is referred to the neck, arm or stomach.",
+				"delay": 3.48,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Cold sweat, fear.",
+				"delay": 2.42,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Does injured has any of these symptoms?",
+				"delay": 2.97,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Yes",
+					"block": "да_приступ"
+				},
+				{
+					"message": "No",
+					"block": "нет_приступ"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "7973,806"
+	},
+	"Говорит, что не нужна": {
+		"serial": 14,
+		"messages": [
+			{
+				"type": "text",
+				"text": "You did everything you could, thanks for not being indifferent.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Tell your friends and relatives about @FastAid_bot",
+				"delay": 3.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It's really important for everyone to know how to do first aid.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3358,835"
+	},
+	"Говорит нужна": {
+		"serial": 15,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Call an ambulance and control the injured status.",
+				"delay": 3.23,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Injured lost his consciousness",
+					"block": "Скорая едет_сознание"
+				},
+				{
+					"message": "An ambulance came",
+					"block": "скорая_сознание"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3208,835"
+	},
+	"Скорая едет_сознание": {
+		"serial": 16,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Check the breathing:",
+				"delay": 2.5,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "1. Open breathing passages by tilting the head back.",
+				"delay": 3.3,
+				"speaker": "eva"
+			},
+			{
+				"type": "video",
+				"video": "/videos/breath.mp4",
+				"delay": 40,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Evaluate the breathing using \"Hear, See, Feel\" method.",
+				"delay": 3.43,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Count the number of exhalations during 10 seconds.",
+				"delay": 3.32,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "How many exhalations?",
+				"delay": 2.53,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "0-1",
+					"block": "0-1 выдоха"
+				},
+				{
+					"message": "2 or more",
+					"block": "2 и больше выдохов"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3058,835"
+	},
+	"Упал с высоты": {
+		"serial": 17,
+		"messages": [
+			{
+				"type": "text",
+				"text": "1. Ask injured not to move, as movement can harm even more.",
+				"delay": 3.48,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Ask injured if he needs any medical aid. If he got injured or asks to call an ambulance - call it.",
+				"delay": 2.52,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Shout out for others to help.",
+				"delay": 2.8,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Call an ambulance or ask somebody to do it.",
+				"delay": 3.15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "5. Tell the ambulance: what happened, where, rough age of injured person, gender. Answer to all operator’s questions. Operator should hang up first.",
+				"delay": 3.7,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "6. Make sure there is somebody to meet an ambulance.",
+				"delay": 3.3,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Heavily bleeding",
+					"block": "Кровотечение не остановилось"
+				},
+				{
+					"message": "Broken limbs",
+					"block": "Сломал конечность"
+				},
+				{
+					"message": "Suspected spinal injuries",
+					"block": "другое_fall"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "5003,911"
+	},
+	"Сломал конечность": {
+		"serial": 18,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Ask injured not to move, this is very important.",
+				"delay": 3.2,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "1. Put some soft fabric under the broken limb, ensuring injured's comfort.",
+				"delay": 3.85,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. If injured broke his arm but is able to hold it with a healthy one - do not prevent it.",
+				"delay": 2.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Don't try to repair a fracture or splint it. That might make things worse.",
+				"delay": 3.93,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Make sure an ambulance is coming and there is somebody to meet it.",
+				"delay": 3.73,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "If there is still no ambulance do next:",
+				"delay": 2.97,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "a. Write down injured's first and last name.",
+				"delay": 3.1,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "b. Ask his relatives or close people contacts to tell them about the incident.",
+				"delay": 3.95,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "c. Wait till an ambulance comes, if you can.",
+				"delay": 3.1,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "d. Talk to him.",
+				"delay": 2.38,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "Скорая приехала_кровотечение_broken"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "7583,946"
+	},
+	"нет_приступ": {
+		"serial": 19,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Most likely it is not a heart attack.",
+				"delay": 2.93,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Nevertheless, if you have some doubts, better call an ambulance to be safe.",
+				"delay": 3.88,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "8060,959"
+	},
+	"да_приступ": {
+		"serial": 20,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Call the ambulance:",
+				"delay": 2.47,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "1. Shout out for others to help.",
+				"delay": 2.8,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Call the ambulance number or ask somebody to do it.",
+				"delay": 3.35,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Tell the ambulance: what happened, where, rough age of injured person, gender. Answer to all operator’s questions. Operator should hang up first.",
+				"delay": 3.7,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Make sure there is somebody to meet an ambulance crew.",
+				"delay": 3.43,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Called it",
+					"block": "скорая_сердце"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "7883,962"
+	},
+	"инсульт1скорая": {
+		"serial": 21,
+		"messages": [
+			{
+				"type": "text",
+				"text": "IMPORTANT! Do not let injured drink or eat until an ambulance comes.",
+				"delay": 3.7,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Provide him comfort, talk to him and make sure he has fresh fresh air (open a window, for ex.)",
+				"delay": 2.35,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "1. Shout out for others to help.",
+				"delay": 2.8,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Call the ambulance number or ask somebody to do it.",
+				"delay": 3.35,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Tell the ambulance: what happened, where, rough age of injured person, gender. Answer to all operator’s questions. Operator should hang up first.",
+				"delay": 3.7,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Make sure there is somebody to meet an ambulance crew.",
+				"delay": 3.43,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "5. Control his status.",
+				"delay": 2.55,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Injured lost his consciousness",
+					"block": "Человек без сознания"
+				},
+				{
+					"message": "An ambulance came",
+					"block": "Скорая_инсульт"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "6738,1003"
+	},
+	"2 и больше выдохов": {
+		"serial": 22,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Put injured in a safe position.",
+				"delay": 2.78,
+				"speaker": "eva"
+			},
+			{
+				"type": "video",
+				"video": "/videos/pozicia.mp4",
+				"delay": 40,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Make sure he isn't cold and doesn't feel hot.",
+				"delay": 3.13,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Check his breathing once in 2 minutes.",
+				"delay": 2.95,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Stopped breathing",
+					"block": "0-1 выдоха"
+				},
+				{
+					"message": "An ambulance came",
+					"block": "скорая_сознание"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3296,1005"
+	},
+	"инсульт1нет": {
+		"serial": 23,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Ask an injured to smile. Does his smile look symmetrical?",
+				"delay": 3.43,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Yes",
+					"block": "инсульт2да"
+				},
+				{
+					"message": "No",
+					"block": "инсульт1скорая"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "7079,1019"
+	},
+	"0-1 выдоха": {
+		"serial": 24,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Make sure an ambulance is coming.",
+				"delay": 2.82,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Prepare to to do a heart-lung reanimation.",
+				"delay": 3.05,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Will you do inhalations? You might need inhalation flaps if it's not someone close to you.",
+				"delay": 2.25,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "I will do inhalations",
+					"block": "есть клапан_сознание"
+				},
+				{
+					"message": "No, I won't",
+					"block": "нет клапана_сознание"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3036,1020"
+	},
+	"Скорая приехала_кровотечение_broken": {
+		"serial": 25,
+		"messages": [
+			{
+				"type": "text",
+				"text": "You did everything you could, thanks for not being indifferent.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Tell your friends and relatives about @FastAid_bot",
+				"delay": 3.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It's really important for everyone to know how to do first aid.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "7588,1098"
+	},
+	"скорая_сердце": {
+		"serial": 26,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Provide this person a comfort:",
+				"delay": 2.75,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "1. Loosen up his tight clothes, the belt, watchband, unbutton a shirt.",
+				"delay": 3.75,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Provide fresh air, open a window.",
+				"delay": 2.9,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Ask if his therapist prescribed him some medications. If yes and he has them, help taking them in a single dose.",
+				"delay": 2.88,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Let him chew an aspirin pill, preliminarily making sure he doesn't have an allergy to it.",
+				"delay": 2.3,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "5. Control his status.",
+				"delay": 2.55,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "скорая_приступ"
+				},
+				{
+					"message": "Injured lost his consciousness",
+					"block": "потерял сознание_приступ"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "7883,1112"
+	},
+	"Скорая_ожог_ребенок": {
+		"serial": 27,
+		"messages": [
+			{
+				"type": "text",
+				"text": "1. Cal someone to help you, if possible.",
+				"delay": 3,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Call the ambulance number or ask somebody to do it.",
+				"delay": 3.35,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Tell the ambulance: what happened, where, child’s age, gender. Answer to all operator’s questions. Operator should hang up first.",
+				"delay": 3.3,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Make sure there is somebody to meet an ambulance crew.",
+				"delay": 3.43,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "5. Wait an ambulance.",
+				"delay": 2.53,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "6286,1120"
+	},
+	"Ожог": {
+		"serial": 28,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Make sure the clothes aren't on fire and do not smolder, the burn reason is eliminated.",
+				"delay": 2.17,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Who's injured - a child or an adult?",
+				"delay": 2.9,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An adult",
+					"block": "Взрослый"
+				},
+				{
+					"message": "A child",
+					"block": "Ребенок"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "6097,1123"
+	},
+	"Скорая_инсульт": {
+		"serial": 29,
+		"messages": [
+			{
+				"type": "text",
+				"text": "You did everything you could, thanks for not being indifferent.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Tell your friends and relatives about @FastAid_bot",
+				"delay": 3.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It's really important for everyone to know how to do first aid.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "6663,1167"
+	},
+	"нет клапана_сознание": {
+		"serial": 30,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Start doing an indirect heart massage:",
+				"delay": 2.95,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "1. Define the place for pressing.",
+				"delay": 2.82,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/1reanimacia_mesto.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Lock your hands.",
+				"delay": 2.47,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/2reanimacia_zamok.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Keep your arms straight and and press till 90 degrees angle.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/3ugol_90.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Do 100-120 presses per minute in a rhytm of \"Stayin' alive\" song.",
+				"delay": 3.7,
+				"speaker": "eva"
+			},
+			{
+				"type": "audio",
+				"audio": "/audio/stainalive.mp3",
+				"delay": 5,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Do not stop heart massage until an ambulance comes or injured starts feeling better.",
+				"delay": 2.1,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Rescuers should replace each other every 2 minutes if possible.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "скорая_сознание"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3178,1168"
+	},
+	"есть клапан_сознание": {
+		"serial": 31,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Start the reanimation:",
+				"delay": 2.55,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "1. Define the place for pressing.",
+				"delay": 2.82,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/1reanimacia_mesto.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Lock your hands.",
+				"delay": 2.47,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/2reanimacia_zamok.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Keep your arms straight and and press till 90 degrees angle.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/3ugol_90.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Do 100-120 presses per minute in a rhytm of \"Stayin' alive\" song.",
+				"delay": 3.7,
+				"speaker": "eva"
+			},
+			{
+				"type": "audio",
+				"audio": "/audio/stainalive.mp3",
+				"delay": 5,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Do 2 exhales after each 30 presses.",
+				"delay": 2.88,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Don't forget to tilt injured's head back and keep his nose clamped.",
+				"delay": 3.68,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Do not stop heart massage until an ambulance comes or injured starts feeling better.",
+				"delay": 2.1,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Rescuers should replace each other every 2 minutes if possible.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "скорая_сознание"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3036,1170"
+	},
+	"инсульт2да": {
+		"serial": 32,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Ask injured to raise both hands in front of him. Does he keep them symmetrically?",
+				"delay": 2.02,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Yes",
+					"block": "инсульт3да"
+				},
+				{
+					"message": "No",
+					"block": "инсульт1скорая"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "7114,1205"
+	},
+	"Сбила машина": {
+		"serial": 33,
+		"messages": [
+			{
+				"type": "text",
+				"text": "1. Protect an accident area using any available method: an emergency sign (triangle), other cars alarms, cones, bright vests, etc.",
+				"delay": 3.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Ask accident participants if they need any medical aid. If any of them are injured or they ask for a help - CALL AN AMBULANCE.",
+				"delay": 3.23,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Try to define who's got the most heavy injures. For ex., a pedestrian who was hit by a car.",
+				"delay": 2.35,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Ask injured not to move, as movement can harm even more.",
+				"delay": 3.48,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Heavily bleeding",
+					"block": "Кровотечение не остановилось"
+				},
+				{
+					"message": "Broken limbs",
+					"block": "Сломал конечность"
+				},
+				{
+					"message": "Suspected spinal injuries",
+					"block": "другое_car"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4622,1243"
+	},
+	"потерял сознание_приступ": {
+		"serial": 34,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Put the injured into a safe position.",
+				"delay": 2.93,
+				"speaker": "eva"
+			},
+			{
+				"type": "video",
+				"video": "/videos/pozicia.mp4",
+				"delay": 40,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Wait for an ambulance.",
+				"delay": 2.55,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "скорая_приступ"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "7967,1258"
+	},
+	"скорая_приступ": {
+		"serial": 35,
+		"messages": [
+			{
+				"type": "text",
+				"text": "You did everything you could, thanks for not being indifferent.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Tell your friends and relatives about @FastAid_bot",
+				"delay": 3.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It's really important for everyone to know how to do first aid.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "7814,1259"
+	},
+	"Подавился": {
+		"serial": 36,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Is it partial or complete airway obstruction?",
+				"delay": 3.13,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Partial",
+					"block": "частичное перекрытие"
+				},
+				{
+					"message": "Complete",
+					"block": "полное перекрытие"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4168,1265"
+	},
+	"Ребенок": {
+		"serial": 37,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Children burns are dangerous, but it's up to you calling an ambulance or not.",
+				"delay": 3.93,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "In next cases calling an ambulance is essential:",
+				"delay": 3.2,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "1. Burn takes big area (more than 5 child's palms).",
+				"delay": 3.27,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Feet, hands, face or groin are burned.",
+				"delay": 3.02,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Deep burns.",
+				"delay": 2.35,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Cool a burn with a cold tap water, until the child feels cold.",
+				"delay": 3.55,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "But don't do it for longer than 20 minutes.",
+				"delay": 3.07,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "When he feels cold, stop watering a burn.",
+				"delay": 3.02,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Need an ambulance",
+					"block": "Скорая_ожог_ребенок"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "6187,1284"
+	},
+	"Взрослый": {
+		"serial": 38,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Did he burn limbs or a body?",
+				"delay": 2.7,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Limbs",
+					"block": "Конечности"
+				},
+				{
+					"message": "Body",
+					"block": "Туловище"
+				},
+				{
+					"message": "Burns are everywhere!",
+					"block": "Он весь в ожогах!"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "6023,1288"
+	},
+	"скорая_сознание": {
+		"serial": 39,
+		"messages": [
+			{
+				"type": "text",
+				"text": "You did everything you could, thanks for not being indifferent.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Tell your friends and relatives about @FastAid_bot",
+				"delay": 3.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It's really important for everyone to know how to do first aid.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3115,1325"
+	},
+	"Скорая_ожог": {
+		"serial": 40,
+		"messages": [
+			{
+				"type": "text",
+				"text": "1. Shout out for others to help.",
+				"delay": 2.8,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Call the ambulance number or ask somebody to do it.",
+				"delay": 3.35,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Tell the ambulance: what happened, where, rough age of injured person, gender. Answer to all operator’s questions. Operator should hang up first.",
+				"delay": 3.7,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Make sure there is somebody to meet an ambulance crew.",
+				"delay": 3.43,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "5798,1366"
+	},
+	"инсульт3да": {
+		"serial": 41,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Ask him to say a simple sentence, for ex.: \"The weather is great today\".",
+				"delay": 3.8,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "He said it distinctly?",
+				"delay": 2.55,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Yes",
+					"block": "инсульт4да"
+				},
+				{
+					"message": "No",
+					"block": "инсульт1скорая"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "7113,1369"
+	},
+	"другое_car": {
+		"serial": 42,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Immobilize injured's neck and head in a neutral position.",
+				"delay": 3.43,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "If injured is on the floor:",
+				"delay": 2.68,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/sheya_floor.jpg",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "If behind the wheel:",
+				"delay": 2.5,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/car_acident.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "If needed ask somebody to position injured properly:",
+				"delay": 3.3,
+				"speaker": "eva"
+			},
+			{
+				"type": "video",
+				"video": "/videos/video_caracident.mp4",
+				"delay": 40,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Hold his neck and head immobilized until an ambulance comes.",
+				"delay": 3.5,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "Скорая приехала_кровотечение_car"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4763,1374"
+	},
+	"Сильное кровотечение": {
+		"serial": 43,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Ask injured to press and hold his wound tightly.",
+				"delay": 3.2,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It should slow down the bleeding.",
+				"delay": 2.82,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Call an ambulance.",
+				"delay": 2.45,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Bleeding stopped",
+					"block": "Кровотечение остановилось"
+				},
+				{
+					"message": "Still bleeding",
+					"block": "Кровотечение не остановилось"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3505,1378"
+	},
+	"другое_fall": {
+		"serial": 44,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Immobilize injured's neck and head in a neutral position.",
+				"delay": 3.43,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/sheya_floor.jpg",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Hold his neck and head immobilized until an ambulance comes.",
+				"delay": 3.5,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "Скорая приехала_кровотечение_fall"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "5275,1429"
+	},
+	"полное перекрытие": {
+		"serial": 45,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Call an ambulance and do the Heimlich maneuver.",
+				"delay": 3.18,
+				"speaker": "eva"
+			},
+			{
+				"type": "video",
+				"video": "/videos/geimlih.mp4",
+				"delay": 40,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Repeat it until he starts expectorating.",
+				"delay": 3,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Expectorated",
+					"block": "Откашлялся"
+				},
+				{
+					"message": "Injured lost his consciousness",
+					"block": "Потерял сознание"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4280,1439"
+	},
+	"частичное перекрытие": {
+		"serial": 46,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Do not interfere!",
+				"delay": 2.42,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Do not give him water and don't hit his back.",
+				"delay": 3.13,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Tell to keep coughing and calm him down, slightly lean him forward.",
+				"delay": 3.68,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Expectorated",
+					"block": "Откашлялся"
+				},
+				{
+					"message": "Suffocates, can't cough",
+					"block": "полное перекрытие"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3918,1455"
+	},
+	"Вызывал_ожог": {
+		"serial": 47,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Cool the burns with cold tap water, while waiting for an ambulance.",
+				"delay": 3.68,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "If injured tells that he feels cold, stop watering.",
+				"delay": 3.27,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Wait an ambulance, caring of his breathing and remaining conscious.",
+				"delay": 3.68,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "6162,1503"
+	},
+	"инсульт4да": {
+		"serial": 48,
+		"messages": [
+			{
+				"type": "text",
+				"text": "If there are no critical behavior changes and the injured successfully passed a test for mimics, coordination and speech, most likely it's not a stroke.",
+				"delay": 3.8,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Nevertheless, if you have some doubts, better call an ambulance to be safe.",
+				"delay": 3.88,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "7113,1519"
+	},
+	"Кровотечение не остановилось": {
+		"serial": 49,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Limb is bleeding?",
+				"delay": 2.42,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Yes",
+					"block": "конечность"
+				},
+				{
+					"message": "No",
+					"block": "не конечность"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3620,1541"
+	},
+	"Кровотечение остановилось": {
+		"serial": 50,
+		"messages": [
+			{
+				"type": "text",
+				"text": "a. Write down injured's first and last name.",
+				"delay": 3.1,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "b. Ask his relatives or close people contacts to tell them about the incident.",
+				"delay": 3.95,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "c. Wait till an ambulance comes, if you can.",
+				"delay": 3.1,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "d. Talk to him.",
+				"delay": 2.38,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "Скорая приехала_кровотечение"
+				},
+				{
+					"message": "Bleeding resumed",
+					"block": "Кровотечение не остановилось"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3288,1556"
+	},
+	"Скорая приехала_кровотечение": {
+		"serial": 51,
+		"messages": [
+			{
+				"type": "text",
+				"text": "You did everything you could, thanks for not being indifferent.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Tell your friends and relatives about @FastAid_bot",
+				"delay": 3.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It's really important for everyone to know how to do first aid.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3093,1558"
+	},
+	"Он весь в ожогах!": {
+		"serial": 52,
+		"messages": [
+			{
+				"type": "text",
+				"text": "If a burn area is extensive, call an ambulance:",
+				"delay": 3.18,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "1. Shout out for others to help.",
+				"delay": 2.8,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Call the ambulance number or ask somebody to do it.",
+				"delay": 3.35,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Tell the ambulance: what happened, where, rough age of injured person, gender. Answer to all operator’s questions. Operator should hang up first.",
+				"delay": 3.7,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Make sure there is somebody to meet an ambulance crew.",
+				"delay": 3.43,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Called an ambulance",
+					"block": "Вызывал_ожог"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "6018,1565"
+	},
+	"Туловище": {
+		"serial": 53,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Cool the burn with cold tap water.",
+				"delay": 2.85,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Until he starts feeling cold, but not longer than for 20 minutes.",
+				"delay": 3.63,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Stop watering a burn when he feels cold.",
+				"delay": 3,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Call an ambulance at your discretion.",
+				"delay": 2.93,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "In next cases calling an ambulance is essential: burn takes big area (more than 5 palms); feet, hands, face or groin are burned, burns are deep.",
+				"delay": 3.6,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Called an ambulance",
+					"block": "Скорая_ожог"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "5868,1565"
+	},
+	"Конечности": {
+		"serial": 54,
+		"messages": [
+			{
+				"type": "text",
+				"text": "1. Cool the burn with cold tap water, until he starts feeling cold.",
+				"delay": 3.68,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Stop watering a burn when he feels cold.",
+				"delay": 3.07,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. When he'll start feeling the burning cool it again until he feels cold.",
+				"delay": 3.85,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Repeat until injured stops feeling the pain from the burn.",
+				"delay": 3.52,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "5. But no longer than for 25 minutes.",
+				"delay": 2.93,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Call an ambulance at your discretion.",
+				"delay": 2.93,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "In next cases calling an ambulance is essential: burn takes big area (more than 5 palms); feet, hands, face or groin are burned, burns are deep.",
+				"delay": 3.6,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Called an ambulance",
+					"block": "Скорая_ожог"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "5718,1565"
+	},
+	"Потерял сознание": {
+		"serial": 55,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Shout out for others to help.",
+				"delay": 2.72,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Make sure an ambulance is coming.",
+				"delay": 2.82,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Prepare to to do a heart-lung reanimation.",
+				"delay": 3.05,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Will you do inhalations? You might need inhalation flaps if it's not someone close to you.",
+				"delay": 2.25,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "I will do inhalations",
+					"block": "есть клапан"
+				},
+				{
+					"message": "No, I won't",
+					"block": "нет клапана"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4375,1589"
+	},
+	"Скорая приехала_кровотечение_fall": {
+		"serial": 56,
+		"messages": [
+			{
+				"type": "text",
+				"text": "You did everything you could, thanks for not being indifferent.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Tell your friends and relatives about @FastAid_bot",
+				"delay": 3.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It's really important for everyone to know how to do first aid.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "5111,1593"
+	},
+	"Скорая приехала_кровотечение_car": {
+		"serial": 57,
+		"messages": [
+			{
+				"type": "text",
+				"text": "You did everything you could, thanks for not being indifferent.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Tell your friends and relatives about @FastAid_bot",
+				"delay": 3.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It's really important for everyone to know how to do first aid.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4620,1598"
+	},
+	"Откашлялся": {
+		"serial": 58,
+		"messages": [
+			{
+				"type": "text",
+				"text": "You did everything you could, thanks for not being indifferent.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Tell your friends and relatives about @FastAid_bot",
+				"delay": 3.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It's really important for everyone to know how to do first aid.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3998,1655"
+	},
+	"не конечность": {
+		"serial": 59,
+		"messages": [
+			{
+				"type": "text",
+				"text": "1. Necessarily wear up medical gloves or some alternative.",
+				"delay": 3.45,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Press the wound tightly. Press the bleeding source.",
+				"delay": 3.35,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. If there some people around ask them to bring bandages or find a piece of a clean fabric (a t-shirt, towel, sheets, etc.)",
+				"delay": 3.1,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Crumple the fabric and strongly press the wound, as shown in the video:",
+				"delay": 3.85,
+				"speaker": "eva"
+			},
+			{
+				"type": "video",
+				"video": "/videos/bleeding.mp4",
+				"delay": 40,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Keep pressing the wound until an ambulance comes.",
+				"delay": 3.23,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "Скорая приехала_кровотечение"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3697,1698"
+	},
+	"конечность": {
+		"serial": 60,
+		"messages": [
+			{
+				"type": "text",
+				"text": "If you can apply a tourniquet.",
+				"delay": 2.75,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Which kind of tourniquets do you have?",
+				"delay": 2.95,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Esmarch bandage",
+					"block": "Резиновый Эсмарха"
+				},
+				{
+					"message": "Made from fabrics",
+					"block": "Импровизированный из ткани"
+				},
+				{
+					"message": "Tourniquet",
+					"block": "Турникет"
+				},
+				{
+					"message": "Can't do it / No tourniquet",
+					"block": "Не умею/Нет жгута"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3463,1701"
+	},
+	"нет клапана": {
+		"serial": 61,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Start doing an indirect heart massage:",
+				"delay": 2.95,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "1. Define the place for pressing.",
+				"delay": 2.82,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/1reanimacia_mesto.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Lock your hands.",
+				"delay": 2.47,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/2reanimacia_zamok.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Keep your arms straight and and press till 90 degrees angle.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/3ugol_90.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Do 100-120 presses per minute in a rhytm of \"Stayin' alive\" song.",
+				"delay": 3.7,
+				"speaker": "eva"
+			},
+			{
+				"type": "audio",
+				"audio": "/audio/stainalive.mp3",
+				"delay": 5,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Do not stop heart massage until an ambulance comes or injured starts feeling better.",
+				"delay": 2.1,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Rescuers should replace each other every 2 minutes if possible.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "скорая_подавился"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4450,1756"
+	},
+	"есть клапан": {
+		"serial": 62,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Start the reanimation:",
+				"delay": 2.55,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "1. Define the place for pressing.",
+				"delay": 2.82,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/1reanimacia_mesto.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Lock your hands.",
+				"delay": 2.47,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/2reanimacia_zamok.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. Keep your arms straight and and press till 90 degrees angle.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "image",
+				"image": "/images/3ugol_90.JPG",
+				"delay": 15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Do 100-120 presses per minute in a rhytm of \"Stayin' alive\" song.",
+				"delay": 3.7,
+				"speaker": "eva"
+			},
+			{
+				"type": "audio",
+				"audio": "/audio/stainalive.mp3",
+				"delay": 5,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Do 2 exhales after each 30 presses.",
+				"delay": 2.88,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Не забывайте запрокидывать голову и зажимать нос пострадавшему во время выдохов.",
+				"delay": 2,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Do not stop heart massage until an ambulance comes or injured starts feeling better.",
+				"delay": 2.1,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Rescuers should replace each other every 2 minutes if possible.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "скорая_подавился"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4260,1760"
+	},
+	"скорая_подавился": {
+		"serial": 63,
+		"messages": [
+			{
+				"type": "text",
+				"text": "You did everything you could, thanks for not being indifferent.",
+				"delay": 3.57,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Tell your friends and relatives about @FastAid_bot",
+				"delay": 3.25,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "It's really important for everyone to know how to do first aid.",
+				"delay": 3.57,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "4335,1956"
+	},
+	"Турникет": {
+		"serial": 64,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Apply a tourniquet above the wound, but not over knees or elbows.",
+				"delay": 3.63,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Do not forget to write the time when you applied the tourniquet on an injured's cheek.",
+				"delay": 2.15,
+				"speaker": "eva"
+			},
+			{
+				"type": "video",
+				"video": "/videos/turniket.mp4",
+				"delay": 40,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Make sure tourniquet is pressed tight enough and the bleeding hasn't resumed.",
+				"delay": 3.93,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Check it every 2 minutes.",
+				"delay": 2.63,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Injured with a tourniquet applied should be transferred to medics as fast as possible.",
+				"delay": 2.15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Make sure he is in his consciousness and can breath.",
+				"delay": 3.3,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Examine the injured, look if he has other wounds.",
+				"delay": 3.23,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Injured lost his consciousness",
+					"block": "Человек без сознания"
+				},
+				{
+					"message": "Other injuries",
+					"block": "Человек получил травму_прошел"
+				},
+				{
+					"message": "An ambulance came",
+					"block": "Человек получил травму_прошел"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3641,2045"
+	},
+	"Импровизированный из ткани": {
+		"serial": 65,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Apply a tourniquet above the wound, but not over knees or elbows.",
+				"delay": 3.63,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Do not forget to write the time when you applied the tourniquet on an injured's cheek.",
+				"delay": 2.15,
+				"speaker": "eva"
+			},
+			{
+				"type": "video",
+				"video": "/videos/improviz.mp4",
+				"delay": 40,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Make sure tourniquet is pressed tight enough and the bleeding hasn't resumed.",
+				"delay": 3.93,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Check it every 2 minutes.",
+				"delay": 2.63,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Injured with a tourniquet applied should be transferred to medics as fast as possible.",
+				"delay": 2.15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Make sure he is in his consciousness and can breath.",
+				"delay": 3.3,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Examine the injured, look if he has other wounds.",
+				"delay": 3.23,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Injured lost his consciousness",
+					"block": "Человек без сознания"
+				},
+				{
+					"message": "Other injuries",
+					"block": "Человек получил травму_прошел"
+				},
+				{
+					"message": "An ambulance came",
+					"block": "Человек получил травму_прошел"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3491,2045"
+	},
+	"Резиновый Эсмарха": {
+		"serial": 66,
+		"messages": [
+			{
+				"type": "text",
+				"text": "Apply a tourniquet above the wound, but not over knees or elbows.",
+				"delay": 3.63,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Do not forget to write the time when you applied the tourniquet on an injured's cheek.",
+				"delay": 2.15,
+				"speaker": "eva"
+			},
+			{
+				"type": "video",
+				"video": "/videos/esmarha.mp4",
+				"delay": 40,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Make sure tourniquet is pressed tight enough and the bleeding hasn't resumed.",
+				"delay": 3.93,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Check it every 2 minutes.",
+				"delay": 2.63,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Injured with a tourniquet applied should be transferred to medics as fast as possible.",
+				"delay": 2.15,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Make sure he is in his consciousness and can breath.",
+				"delay": 3.3,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Examine the injured, look if he has other wounds.",
+				"delay": 3.23,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "Injured lost his consciousness",
+					"block": "Человек без сознания"
+				},
+				{
+					"message": "Other injuries",
+					"block": "Человек получил травму_прошел"
+				},
+				{
+					"message": "An ambulance came",
+					"block": "Человек получил травму_прошел"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3341,2045"
+	},
+	"Не умею/Нет жгута": {
+		"serial": 67,
+		"messages": [
+			{
+				"type": "text",
+				"text": "1. You must wear up gloves.",
+				"delay": 2.68,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "2. Press the wound tightly with your hand, press the bleeding source. If it's a head or a stomach do not press hard.",
+				"delay": 2.9,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "3. If there some people around ask them to bring bandages or find a piece of a clean fabric (a t-shirt, towel, sheets, etc.)",
+				"delay": 3.1,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "4. Crumple the fabric and strongly press the wound.",
+				"delay": 3.27,
+				"speaker": "eva"
+			},
+			{
+				"type": "text",
+				"text": "Keep the wound pressed until an ambulance comes.",
+				"delay": 3.2,
+				"speaker": "eva"
+			}
+		],
+		"replies": {
+			"type": "default",
+			"choices": [
+				{
+					"message": "An ambulance came",
+					"block": "Скорая приехала_кровотечение"
+				},
+				{
+					"message": "Back to the beginning",
+					"block": "прошел тренинг"
+				}
+			]
+		},
+		"twine-coords": "3191,2045"
+	}
+}
